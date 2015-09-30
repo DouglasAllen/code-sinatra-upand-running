@@ -1,4 +1,4 @@
-```ruby
+
 require 'sinatra'
 
 # before we process a route, we'll set the response as
@@ -14,5 +14,5 @@ end
 get '/throw/:type' do
   # play here
 end
-```
+
 
