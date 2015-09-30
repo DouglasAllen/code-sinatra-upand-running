@@ -2,6 +2,7 @@ loop do
   @defeat = {rock: :scissors, paper: :rock, scissors: :paper}
   @throws = @defeat.keys
   computer_throw = @throws.sample
+  p "Enter your choice rock paper scissors"
   player_throw = gets.chomp.to_sym
   p player_throw
   if !@throws.include?(player_throw)
